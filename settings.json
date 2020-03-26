@@ -1,0 +1,39 @@
+{
+    /** vscode */
+    "window.titleBarStyle": "custom",
+    "editor.minimap.enabled": false,
+    "window.menuBarVisibility": "default",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.hover.delay": 200,
+    "editor.maxTokenizationLineLength": 200,
+    "editor.renderControlCharacters": true,
+    "files.eol": "\n",
+    "editor.tabSize": 4,
+    // デバッグ中にエディターの行内に変数値を表示します
+    "debug.inlineValues": true,
+    // vscodeのwindowの設定
+    "window.zoomLevel": 0,
+
+    /** vim */
+    "vim.useSystemClipboard":true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "/"
+            ],
+            "after": [
+            ],
+            "commands": [
+                "actions.find"
+            ]
+        },
+    ],
+
+    /** sqltool */
+    "sqltools.connections": [],
+    "sqltools.useNodeRuntime": true,
+
+    /** todo-tree */
+    "todo-tree.highlights.enabled": true,
+    "todo-tree.tree.showScanModeButton": false,
+}
