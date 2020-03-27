@@ -13,9 +13,16 @@
     "debug.inlineValues": true,
     // vscodeのwindowの設定
     "window.zoomLevel": 0,
+    "workbench.tree.indent": 20,
 
     /** vim */
     "vim.useSystemClipboard":true,
+    "vim.statusBarColorControl": true,
+    "vim.statusBarColors.normal": ["#8FBCBB", "#434C5E"],
+    "vim.statusBarColors.insert": "#BF616A",
+    "vim.statusBarColors.visual": "#B48EAD",
+    "vim.statusBarColors.visualline": "#B48EAD",
+    "vim.statusBarColors.visualblock": "#A3BE8C",
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [
@@ -36,4 +43,10 @@
     /** todo-tree */
     "todo-tree.highlights.enabled": true,
     "todo-tree.tree.showScanModeButton": false,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#8FBCBB",
+        "statusBar.noFolderBackground": "#8FBCBB",
+        "statusBar.debuggingBackground": "#8FBCBB",
+        "statusBar.foreground": "#434C5E"
+    },
 }
